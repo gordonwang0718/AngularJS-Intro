@@ -13,3 +13,7 @@
 
 		1.2.1 Controller takes a $scope parameter
 		1.2.2 Attach model to $scope
+2 The Capabilities
+	2.1 Multiple Controllers
+	2.2 Complex objects
+	2.3 Nest Controllers
