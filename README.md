@@ -43,3 +43,11 @@
 		5.2.2 Register your controllers in the module
 		5.2.3 Tell Angular to use your module with ng-app
 
+6 Directive and Views - Philosopuy
+	6.1 $scope provides the model
+	6.2 Model does not touch HTML
+	6.3 Data binding moves model data to view
+	6.4 Directive allow for indirect model view interaction
+
+	Directives are all about letting the view and the model work together without requieing direct interaction. and just like we have directives to move data from the model into the view, we also have directive to move information from the view into the model. And many of these directives work in both directions, so if dara changes in the view or the model, the directive will keep both sides in sync by propagating the chages throught the application.
+
