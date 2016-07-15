@@ -13,6 +13,7 @@
 
 		1.2.1 Controller takes a $scope parameter
 		1.2.2 Attach model to $scope
+
 2 The Capabilities
 	2.1 Multiple Controllers
 	2.2 Complex objects
@@ -28,5 +29,9 @@
 
 	3.3 Always returns a promise
 		A promise to deliver a value in the future.
-		
+
+4 Github API
+	4.1 The API is avaiable to call from JavaScript in a browser
+	4.2 Returns JSON (easy to convert into objects)
+	4.3 No authentication or client key required
 
