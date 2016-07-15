@@ -17,3 +17,16 @@
 	2.1 Multiple Controllers
 	2.2 Complex objects
 	2.3 Nest Controllers
+
+3 $http Service
+	3.1 Encapsulates HTTP communication
+		GET, POST, PUT, DELETE
+	3.2 Can "ask" for $http inside a controller
+		just add as another parameter to controller function
+	
+	*HTTP Communication methods on this object never ever return the data you need immediately. That Because all communication is asynchronous.
+
+	3.3 Always returns a promise
+		A promise to deliver a value in the future.
+		
+
