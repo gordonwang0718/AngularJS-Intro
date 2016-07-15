@@ -35,3 +35,11 @@
 	4.2 Returns JSON (easy to convert into objects)
 	4.3 No authentication or client key required
 
+5 Modules
+	5.1 Controllers usually live in modules
+		Avoids the global namespace
+	5.2 Working with modules
+		5.2.1 Create a module with a name.
+		5.2.2 Register your controllers in the module
+		5.2.3 Tell Angular to use your module with ng-app
+
