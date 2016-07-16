@@ -65,8 +65,8 @@
 
 8 Directive and Views - ng-show and hides
 
-
-
+9 Directive and Views - ng-include
+	9.1 ng-include is useful for a number of scenarios, because ng-include can bring in HTML from another source, like another file, and then you can use that HTML in the current view. This is useful because you can break up a complex page into pieces; it's also useful if you have some markup that you can reuse in other views of the application.
 
 
 
