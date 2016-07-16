@@ -1,7 +1,7 @@
 // Code goes here
 
 angular.module('app', []);
-angular.module('app').controller('MainController', function($scope, $http, $interval, $log) {
+angular.module('app').controller('MainController', function($scope, $http, $interval, $log, $anchorScroll, $location) {
 
   var onUserComplete = function(response) {
     $scope.user = response.data;
@@ -11,6 +11,8 @@ angular.module('app').controller('MainController', function($scope, $http, $inte
   
   var onRepos = function(response){
     $scope.repos = response.data;
+    $location.hash("userDetails");
+    $anchorScroll();
   };
   
   var onError = function(reason) {
