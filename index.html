@@ -23,10 +23,13 @@
       <input type="submit" value="search">
     </form>
     
-    <div ng-show="user">
+    <div>
       <h2>{{ user.name }}</h2>
       <h3>{{ user.location }}</h3>
       <img ng-src="{{user.avatar_url}}" title="{{user.name}}">
+    </div>
+    
+    <div>
       <h3>Order</h3>
       <select ng-model="repoSortOrder">
         <option value="+name">Name</option>
@@ -35,7 +38,7 @@
       </select>
     </div>
     
-    <table ng-hide="!user">
+    <table>
       <thead>
         <tr>
           <th>Name</th>
