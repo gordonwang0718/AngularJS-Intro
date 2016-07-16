@@ -18,17 +18,15 @@
     <div>
       {{ username }}
     </div>
-    <form name="searchUser">
-      <input type="search" placeholder="Username to find" ng-model="username" />
+    <form name="searchUser" ng-submit="search(username)">
+      <input type="search" required placeholder="Username to find" ng-model="username" />
       <input type="submit" value="search">
     </form>
     
     <div>
-      <div>Name: {{user.name}}</div>
-      <div>Location: {{user.location}}</div>
-      <div>
-        <img ng-src="{{user.avatar_url}}" title="{{user.name}}">
-      </div>
+      <h2>{{user.name}}</h2>
+      <h3>{{user.location}}</h3>
+      <img ng-src="{{user.avatar_url}}" title="{{user.name}}">
     </div>
     
   </body>

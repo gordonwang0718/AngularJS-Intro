@@ -10,9 +10,11 @@ angular.module('app').controller('MainController', function($scope, $http) {
   var onError = function(reason) {
     $scope.error = "could not fetch the user";
   }
-
-  $http.get("https://api.github.com/users/Angular")
+  
+  $scope.search = function(username){
+    $http.get("https://api.github.com/users/" + username)
     .then(onUserComplete, onError);
+  };
 
   $scope.message = "hello Gordon";
   $scope.username = "angular";
