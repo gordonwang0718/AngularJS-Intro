@@ -63,6 +63,7 @@
 		number					{{stars | number}}
 		orderBy					repo in repos | filter:searchTerm | orderBy: 'name'
 
+8 Directive and Views - ng-show and hides
 
 
 
