@@ -51,3 +51,32 @@
 
 	Directives are all about letting the view and the model work together without requieing direct interaction. and just like we have directives to move data from the model into the view, we also have directive to move information from the view into the model. And many of these directives work in both directions, so if dara changes in the view or the model, the directive will keep both sides in sync by propagating the chages throught the application.
 
+7 Directive and Views - Filters
+	7.1 Basic format: expression | filterName:parameter
+		Name
+		currency				{{ammount | currency: "USD$"}}
+		date					{{startDate | date: 'short'}}
+		filter 					repo in repos | filter: searchTerm
+		json 					{{repo | json}}
+		limitTo					repo in repos | limitTo:10
+		lowercase, uppercase	{{user.name | uppercase}}
+		number					{{stars | number}}
+		orderBy					repo in repos | filter:searchTerm | orderBy: 'name'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

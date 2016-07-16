@@ -24,5 +24,6 @@ angular.module('app').controller('MainController', function($scope, $http) {
 
   $scope.message = "hello Gordon";
   $scope.username = "angular";
+  $scope.repoSortOrder = '-stargazers_count';
 
 });
