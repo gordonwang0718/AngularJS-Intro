@@ -83,6 +83,16 @@
 	* Create shared data
 	* Manage complexity
 
+12 Routing - What is Routing?
+	*Routing based on URL
+	*Routing engine captures request
+	*Routing rules render a response
+
+13 Routing - Routing With Angular
+	*Depends on another module: angular-route.js
+	*Configure rules into $routeProvider
+	*Setup a layout view
+
 
 
 
