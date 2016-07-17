@@ -99,8 +99,15 @@
 	14.3 Create controller
 	14.4 Have search navigate to new route
 
-
-
+15 Summary
+	15.1 Angular.js - a framework for building HTML application
+		*controller
+		*models
+		*views
+		*services
+	15.2 Routing
+		*Navigation
+		*Smaller pieces
 
 
 
