@@ -93,6 +93,11 @@
 	*Configure rules into $routeProvider
 	*Setup a layout view
 
+14 Routing - The Fixup
+	14.1 Create route
+	14.2 Create template
+	14.3 Create controller
+	14.4 Have search navigate to new route
 
 
 
